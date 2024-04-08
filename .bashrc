@@ -1,1 +1,2 @@
-
+# fzf
+eval "$(fzf --bash)"
