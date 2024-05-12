@@ -1,5 +1,7 @@
 # git
 alias gac="git add . && git comit -m"
+# starship
+eval "$(starship init bash)"
 # fzf
 eval "$(fzf --bash)"
 
