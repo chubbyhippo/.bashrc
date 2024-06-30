@@ -9,4 +9,8 @@ wget https://raw.githubusercontent.com/chubbyhippo/.bashrc/main/.bashrc -P ~
 ```
 [ -f ~/.bashrc ] && curl https://raw.githubusercontent.com/chubbyhippo/.bashrc/main/.bashrc-for-win >> ~/.bashrc || curl https://raw.githubusercontent.com/chubbyhippo/.bashrc/main/.bashrc-for-win -o ~/.bashrc
 ```
+# wsl
+```
+[ -f ~/.bashrc ] && curl https://raw.githubusercontent.com/chubbyhippo/.bashrc/main/.bashrc-wsl >> ~/.bashrc || curl https://raw.githubusercontent.com/chubbyhippo/.bashrc/main/.bashrc-wsl -o ~/.bashrc
+```
 
