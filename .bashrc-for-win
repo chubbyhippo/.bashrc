@@ -20,3 +20,5 @@ case $(uname) in
         echo "Unknown Operating System"
         ;;
 esac
+# vscode plugin, fzf fuzzy quick open
+export FZF_DEFAULT_COMMAND='fd'
