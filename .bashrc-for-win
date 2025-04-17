@@ -22,3 +22,4 @@ esac
 export PATH="/c/programs/emacs/bin:$PATH"
 export PATH="~/.config/emacs/bin:$PATH"
 export PATH="~/scoop/shims:$PATH"
+export PATH="~/scoop/apps/mise/current/mise/shims:$PATH"
