@@ -18,5 +18,7 @@ case $(uname) in
         echo "Unknown Operating System"
         ;;
 esac
-# vscode plugin, fzf fuzzy quick open
-export FZF_DEFAULT_COMMAND='fd'
+
+export PATH="/c/programs/emacs/bin:$PATH"
+export PATH="~/.config/emacs/bin:$PATH"
+export PATH="~/scoop/shims:$PATH"
